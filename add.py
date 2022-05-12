@@ -1,5 +1,4 @@
 class students:
-
     def __init__(self,roll,name,marks_list):
         self.roll=roll
         self.name=name
@@ -17,11 +16,9 @@ class students:
             return  'C'
         else:
             return 'F'
-
 roll=int(input("ENTER THE ROLL NUM:"))
 name=input("ENTER THE ROLL NAME:")
 count=int(input("no of sub:"))
-
 marks=[]
 for i in range(count):
     marks.append(int(input()))
