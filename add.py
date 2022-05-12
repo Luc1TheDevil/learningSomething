@@ -15,8 +15,13 @@ class students:
         elif percentage>=50:
             return  'C'
         else:
+<<<<<<< HEAD
             return 'F'
 roll=int(input("ENTER THE ROLL NUMBER:"))
+=======
+            return 'U'
+roll=int(input("ENTER THE ROLL NUM:"))
+>>>>>>> branch1
 name=input("ENTER THE ROLL NAME:")
 count=int(input("no of sub:"))
 marks=[]
