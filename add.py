@@ -15,7 +15,7 @@ class students:
         elif percentage>=50:
             return  'C'
         else:
-            return 'F'
+            return 'U'
 roll=int(input("ENTER THE ROLL NUM:"))
 name=input("ENTER THE ROLL NAME:")
 count=int(input("no of sub:"))
