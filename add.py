@@ -16,7 +16,7 @@ class students:
             return  'C'
         else:
             return 'F'
-roll=int(input("ENTER THE ROLL NUM:"))
+roll=int(input("ENTER THE ROLL NUMBER:"))
 name=input("ENTER THE ROLL NAME:")
 count=int(input("no of sub:"))
 marks=[]
